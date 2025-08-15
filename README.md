@@ -2,13 +2,9 @@
 
 This repository contains the code for the paper: "Generative Co-Design of Antibody Sequences and Structures via Black-Box Guidance in a Shared Latent Space (IJCAI 25)".
 
-![overview](./assets/overview.png)
-*Figure: **(a)** Illustration of an antibody, featuring the two heavy (in blue) and two light (in pink) chains. The variable regions in the enlarged area encompass the antigen-binding site including the six CDR loops. **(b-d)** Visualization of the generative diffusion process, showcasing the prior distributions for each modality and the designed CDR, for the **(b)** property-unconditioned mode, **(c)** property-aware prior approach, and **(d)** sampling by property approach.*
+![overview](./assets/LEAD_framework.pdf)
+*Figure: Overall framework. **Left panel** describes the whole process of our guided sampling. **Right panel** details the black-box guidance incorporated in the shared latent space of sequence and structure.*
 
-
-## Background
-
-This repository builds upon [(Luo et al. 2022) [DiffAb]](https://github.com/luost26/diffab) and [(Shan et al. 2022) [DDG Predictor]](https://github.com/HeliXonProtein/binding-ddg-predictor). To install the required packages, please refer to the documentation in the official repositories.
 
 ### Datasets and model weights
 
@@ -88,6 +84,9 @@ python eval.py --no_energy --root results/codesign_single
 
 For training details and more design options, such as "Fix-backbone Design", "Antibody Optimization", or "Antigen Only", please refer to the original implementation of [[DiffAb]](https://github.com/luost26/diffab).
 
+## Acknowledgements
+
+This repository builds upon [(Luo et al. 2022) [DiffAb]](https://github.com/luost26/diffab) and [(Morcillo et al. 2024) []](http://github.com/amelvim/antibody-diffusion-properties). Thanks to their contribution.
 
 ## References
 
