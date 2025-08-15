@@ -1,6 +1,6 @@
-# Antibody-Diffusion-Properties
+# Latent Black-box Design
 
-This repository contains the code to reproduce the results of the paper: "Guiding diffusion models for antibody sequence and structure co-design with developability properties".
+This repository contains the code for the paper: "Generative Co-Design of Antibody Sequences and Structures via Black-Box Guidance in a Shared Latent Space (IJCAI 25)".
 
 ![overview](./assets/overview.png)
 *Figure: **(a)** Illustration of an antibody, featuring the two heavy (in blue) and two light (in pink) chains. The variable regions in the enlarged area encompass the antigen-binding site including the six CDR loops. **(b-d)** Visualization of the generative diffusion process, showcasing the prior distributions for each modality and the designed CDR, for the **(b)** property-unconditioned mode, **(c)** property-aware prior approach, and **(d)** sampling by property approach.*
