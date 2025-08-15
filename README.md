@@ -8,11 +8,18 @@ This repository contains the code for the paper: "Generative Co-Design of Antibo
 
 ## Unconditional Sampling (DiffAb) & Property guided Sampling (our LEAD)
 
-Single sample
+### Environment
+
+```bash
+conda env create -f env.yaml -n diffab
+conda activate diffab
+```
+
+### Script for Single sample
 ```bash
 bash test_run.sh
 ```
-Test set
+### Script for Test set
 ```bash
 bash testset_run.sh
 ```
