@@ -28,7 +28,7 @@ bash testset_run.sh
 
 Protein structure data can be downloaded [here](https://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/archive/all/). Extract `all_structures.zip` into the `data` folder. The `data` folder contains a snapshot of the dataset index (`sabdab_summary_all.tsv`).
 
-We adopt [[DiffAb]](https://github.com/luost26/diffab) as pretrained model and their weights can be downloaded from either [[Hugging Face]](https://huggingface.co/luost26/DiffAb/tree/main) or [[Google Drive]](https://drive.google.com/drive/folders/15ANqouWRTG2UmQS_p0ErSsrKsU4HmNQc?usp=sharing). Copy the files into the `trained_models` folder. The model weights for [[DDG Predictor]](https://github.com/HeliXonProtein/binding-ddg-predictor) can be found in [`diffab/tools/ddg/data/model.pt`](diffab/tools/ddg/data/model.pt).
+We adopt [[DiffAb]](https://github.com/luost26/diffab) as the pretrained model and their weights can be downloaded from either [[Hugging Face]](https://huggingface.co/luost26/DiffAb/tree/main) or [[Google Drive]](https://drive.google.com/drive/folders/15ANqouWRTG2UmQS_p0ErSsrKsU4HmNQc?usp=sharing). Copy the files into the `trained_models` folder. 
 
 ### Configuration
 
