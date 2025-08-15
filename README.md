@@ -44,7 +44,7 @@ For sampling by property (ddG, hydropathy, or both), use the following config fi
 
 ## Acknowledgements
 
-This repository builds upon [(Luo et al. 2022) [DiffAb]](https://github.com/luost26/diffab) and [(Morcillo et al. 2024)](http://github.com/amelvim/antibody-diffusion-properties). Thanks to their contribution.
+This repository builds upon [(Morcillo et al. 2024)](http://github.com/amelvim/antibody-diffusion-properties), [(Luo et al. 2022) [DiffAb]](https://github.com/luost26/diffab), and [(Shan et al. 2022) [DDG Predictor]](https://github.com/HeliXonProtein/binding-ddg-predictor). Thanks to their contribution. 
 
 ## References
 
