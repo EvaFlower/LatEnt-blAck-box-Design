@@ -2,7 +2,7 @@
 
 This repository contains the code for the paper: "Generative Co-Design of Antibody Sequences and Structures via Black-Box Guidance in a Shared Latent Space (IJCAI 25)".
 
-![overview](./assets/LEAD_framework.pdf)
+![overview](./assets/framework.png)
 *Figure: Overall framework. **Left panel** describes the whole process of our guided sampling. **Right panel** details the black-box guidance incorporated in the shared latent space of sequence and structure.*
 
 
@@ -93,40 +93,5 @@ This repository builds upon [(Luo et al. 2022) [DiffAb]](https://github.com/luos
 If you find this repository useful in your research, please cite the following works.
 
 ```bibtex
-@article{villegas2024guiding,
-  title={Guiding diffusion models for antibody sequence and structure co-design with developability properties},
-  author={Amelia Villegas-Morcillo and Jana M. Weber and Marcel J.T. Reinders},
-  journal={PRX Life},
-  volume={2},
-  number={3},
-  pages={033012},
-  year={2024}
-}
 
-@article{villegas2023guiding,
-  title={Guiding diffusion models for antibody sequence and structure co-design with developability properties},
-  author={Amelia Villegas-Morcillo and Jana M. Weber and Marcel J.T. Reinders},
-  journal={NeurIPS 2023 Generative AI and Biology Workshop},
-  year={2023},
-  url={https://openreview.net/forum?id=bPcgbKDCUQ}
-}
-
-@inproceedings{luo2022antigenspecific,
-  title={Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models for Protein Structures},
-  author={Shitong Luo and Yufeng Su and Xingang Peng and Sheng Wang and Jian Peng and Jianzhu Ma},
-  booktitle={Advances in Neural Information Processing Systems},
-  editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-  year={2022},
-  url={https://openreview.net/forum?id=jSorGn2Tjg}
-}
-
-@article{shan2022deep,
-  title={Deep learning guided optimization of human antibody against SARS-CoV-2 variants with broad neutralization},
-  author={Shan, Sisi and Luo, Shitong and Yang, Ziqing and Hong, Junxian and Su, Yufeng and Ding, Fan and Fu, Lili and Li, Chenyu and Chen, Peng and Ma, Jianzhu and others},
-  journal={Proceedings of the National Academy of Sciences},
-  volume={119},
-  number={11},
-  pages={e2122954119},
-  year={2022}
-}
 ```
